@@ -1,4 +1,4 @@
-# Calculadora de interpolação
+# Calculadora de interpolação de MEB01
 
 def interpol(yequiv,xmin, ymin, xmax, ymax):
     quero = xmin + (xmax - xmin)*(yequiv - ymin)/(ymax - ymin)
